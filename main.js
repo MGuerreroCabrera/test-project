@@ -6,4 +6,6 @@ const img = document.createElement("img");
 
 img.src = "public/logo.png";
 
-aplicacion.appendChild("img");
+aplicacion.appendChild(img);
+
+console.log(img);
